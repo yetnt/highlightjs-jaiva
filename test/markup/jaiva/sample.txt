@@ -1,0 +1,10 @@
+maak name <- "Lehlogonolo"!
+maak vowels <- 0!
+
+colonize letter with name ->
+    vowels <- vowels + ((letter = "a") => 1 however 0)!
+<~
+
+khutla vowels!
+
+function()!

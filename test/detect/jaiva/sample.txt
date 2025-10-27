@@ -1,0 +1,31 @@
+tsea "jaiva/arrays"! @ Import arrays
+
+maak arrayOfNames <-| "Jonas", "Mike", "Senzeni", "Vulukazi", "Lehlogonolo"!
+
+kwenza extract(name) ->
+    maak vowels <- 0!
+    colonize letter with name ->
+        vowels <- vowels + ((letter = "a" || letter = "e" || letter = "i" || letter = "o" || letter = "u") => 1 however 0)!
+    <~
+    khutla arrLit(vowels, name~ - vowels)! @ arr[0] amount of vowels, arr[1] holds amount of consonants
+<~
+
+@* Filter function that tries to check if a name is possibly south african.
+@* p        $> name string The name to Filter
+@* rets     $> yebo, if the name is likely to be south african, otherwise false.
+@* note     $> This function will error out if given any other input though.
+@*          $> Also the below version is obviously fake.
+@* since    $> v5.2.3
+kwenza possiblySouthAfrican(name) ->
+    if (typeOf(name) != "string") ->
+        cima <== "Only accept input of strings"!
+    <~
+
+    maak hasZ <- name ? "z"!
+    maak hasX <- name ? "x"!
+    maak letters <- extract(name)! 
+
+    khutla hasZ || hasX || (letters[0] > letters[1])!
+<~
+
+maak output <- a_filter(arrayOfNames, possiblySouthAfrican)!

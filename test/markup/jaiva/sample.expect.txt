@@ -1,0 +1,10 @@
+<span class="hljs-keyword">maak</span> <span class="hljs-variable">name</span> <span class="hljs-operator">&lt;-</span> <span class="hljs-string">&quot;Lehlogonolo&quot;</span><span class="hljs-meta">!</span>
+<span class="hljs-keyword">maak</span> <span class="hljs-variable">vowels</span> <span class="hljs-operator">&lt;-</span> <span class="hljs-number">0</span><span class="hljs-meta">!</span>
+
+<span class="hljs-keyword">colonize</span> <span class="hljs-variable">letter</span> <span class="hljs-keyword">with</span> <span class="hljs-variable">name</span> <span class="hljs-punctuation">-&gt;</span>
+    <span class="hljs-variable">vowels</span> <span class="hljs-operator">&lt;-</span> <span class="hljs-variable">vowels</span> <span class="hljs-operator">+</span> ((<span class="hljs-variable">letter</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;a&quot;</span>) <span class="hljs-operator">=&gt;</span> <span class="hljs-number">1</span> <span class="hljs-keyword">however</span> <span class="hljs-number">0</span>)<span class="hljs-meta">!</span>
+<span class="hljs-punctuation">&lt;~</span>
+
+<span class="hljs-keyword">khutla</span> <span class="hljs-variable">vowels</span><span class="hljs-meta">!</span>
+
+<span class="hljs-title function_">function</span>()<span class="hljs-meta">!</span>
