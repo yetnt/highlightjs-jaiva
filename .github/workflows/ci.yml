@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   test:
@@ -14,7 +14,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 'lts/*'
+          node-version: "lts/*"
       - name: Install dependencies
         run: npm ci
       - name: Run tests
@@ -28,15 +28,15 @@ jobs:
         with:
           repository: highlightjs/highlight.js
           path: highlightjs
-      - name: Checkout highlightjs-your-language into extra/
+      - name: Checkout highlightjs-jaiva into extra/
         uses: actions/checkout@v5
         with:
           repository: sebastiaanspeck/highlightjs-language-template
-          path: highlightjs/extra/highlightjs-your-language
+          path: highlightjs/extra/highlightjs-jaiva
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 'lts/*'
+          node-version: "lts/*"
       - name: Install dependencies
         working-directory: highlightjs
         run: npm ci
@@ -44,8 +44,8 @@ jobs:
         working-directory: highlightjs
         run: node ./tools/build.js -t cdn
       - name: Check unchanged dist-folder
-        working-directory: highlightjs/extra/highlightjs-your-language
+        working-directory: highlightjs/extra/highlightjs-jaiva
         shell: bash
         run: |
-            git status
-            exit $(git status --porcelain=v1 2>/dev/null | grep -c dist/)
+          git status
+          exit $(git status --porcelain=v1 2>/dev/null | grep -c dist/)
