@@ -1,8 +1,8 @@
 {
     "name": "highlightjs-jaiva",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "author": "Lehlogonolo Poole",
-    "description": "A new language template set up when creating a language definition for highlightjs",
+    "description": "Jaiva Scripting language definition for highlightjs",
     "main": "src/languages/jaiva.js",
     "scripts": {
         "mocha": "mocha",
@@ -12,25 +12,28 @@
         "lint": "eslint src/languages/jaiva.js"
     },
     "files": [
-        "src/languages/jaiva.js"
+        "src/languages/jaiva.js",
+        "dist/jaiva.min.js",
+        "dist/jaiva.es.js"
     ],
     "repository": {
         "type": "git",
         "url": "git://github.com/yetnt/highlightjs-jaiva.git"
     },
     "keywords": [
-        "jaiva",
-        "javascript",
-        "highlight",
         "highlight.js",
+        "syntax",
+        "jaiva",
+        "language",
         "highlightjs",
-        "syntax"
+        "syntax",
+        "highlight"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sebastiaanspeck/highlightjs-language-template/issues"
+        "url": "https://github.com/yetnt/highlightjs-jaiva/issues"
     },
-    "homepage": "https://github.com/sebastiaanspeck/highlightjs-language-template",
+    "homepage": "https://github.com/yetnt/highlightjs-jaiva",
     "devDependencies": {
         "highlight.js": "^11.11.1",
         "eslint": "^9.38.0",

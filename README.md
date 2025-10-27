@@ -5,7 +5,7 @@
 
 [![ci status](https://github.com/sebastiaanspeck/highlightjs-language-template/actions/workflows/ci.yml/badge.svg)](https://github.com/sebastiaanspeck/highlightjs-language-template/actions/workflows/ci.yml)
 
-Jaiva! is an esoteric (Semi-) functional programming language which leverages South African keywords and declarative syntax.
+Jaiva! is an esoteric  functional programming language which leverages South African keywords and declarative syntax.
 
 <!-- Link to [jaiva grammar description](https://official.language.com). -->
 
@@ -68,4 +68,4 @@ Contributions are what make the open source community such an amazing place to b
 
 -   The official site for the Highlight.js library is <https://highlightjs.org/>.
 -   The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
--   Learn more about jaiva: <https://jaiva.org>
+-   Learn more about jaiva: <https://github.com/yetnt/jaiva>
