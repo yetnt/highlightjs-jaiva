@@ -8,7 +8,7 @@ Category: scripting
 module.exports = function (hljs) {
     var KEYWORDS = {
         keyword:
-            "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak",
+            "if colonize nikhil kwenza khutla mara zama chaai however with tsea maak cima",
         literal: "true false yebo aowa idk",
         built_in:
             "khuluma scope getVarClass typeOf arrLit neg version args uargs reservedKeywords mamela sleep flat",
