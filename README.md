@@ -3,9 +3,9 @@
 ![version](https://badgen.net/npm/v/highlightjs-jaiva) ![license](https://badgen.net/badge/license/MIT/blue)
 ![install size](https://badgen.net/packagephobia/install/highlightjs-jaiva) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-jaiva)
 
-[![ci status](https://github.com/sebastiaanspeck/highlightjs-language-template/actions/workflows/ci.yml/badge.svg)](https://github.com/sebastiaanspeck/highlightjs-language-template/actions/workflows/ci.yml)
+[![ci status](https://github.com/yett/highlightjs-jaiva/actions/workflows/ci.yml/badge.svg)](https://github.com/yetnt/highlightjs-jaiva/actions/workflows/ci.yml)
 
-Jaiva! is an esoteric  functional programming language which leverages South African keywords and declarative syntax.
+Jaiva! is an esoteric functional programming language which leverages South African keywords and declarative syntax.
 
 <!-- Link to [jaiva grammar description](https://official.language.com). -->
 
